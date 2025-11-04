@@ -580,8 +580,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Enhanced Mobile Navigation
 const mobileMenuBtn = document.getElementById('mobile-menu');
-const navMenu = document.querySelector('.nav-menu');
-const navLinks = document.querySelectorAll('.nav-link');
+const navMenuEnhanced = document.querySelector('.nav-menu');
+const navLinksEnhanced = document.querySelectorAll('.nav-link');
 
 mobileMenuBtn.addEventListener('click', () => {
     mobileMenuBtn.classList.toggle('active');
